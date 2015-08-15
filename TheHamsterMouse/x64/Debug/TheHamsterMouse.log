@@ -1,0 +1,16 @@
+﻿Build started 8/11/2015 7:26:06 PM.
+     1>Project "D:\TheHamsterMouse\TheHamsterMouse\TheHamsterMouse.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\thehamstermouse\thehamstermouse\Locator.h(170): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\thehamstermouse\thehamstermouse\Locator.h(171): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Source.cpp(111): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TheHamsterMouse\x64\Debug\TheHamsterMouse.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc12\lib opencv_world300.lib opencv_ts300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\TheHamsterMouse\x64\Debug\TheHamsterMouse.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TheHamsterMouse\x64\Debug\TheHamsterMouse.lib" /MACHINE:X64 x64\Debug\Source.obj
+         TheHamsterMouse.vcxproj -> D:\TheHamsterMouse\x64\Debug\TheHamsterMouse.exe
+     1>Done Building Project "D:\TheHamsterMouse\TheHamsterMouse\TheHamsterMouse.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.11
